@@ -1,0 +1,42 @@
+.WorkingOn{
+    width: 340px;
+    height: 280px;
+    background-color: #59C1BD;
+    border-radius: 10px;
+}
+.TopicBottom{
+    /* font-weight: Bold; */
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px 15px;
+}
+.Description{
+    width: 65%;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 20px;
+}
+.WorkName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.Work{
+    font-weight: Bold;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.Image{
+    background-image: url('../../Assets/Git.png');
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

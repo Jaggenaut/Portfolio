@@ -1,0 +1,70 @@
+.Intro{
+    height: 690px;
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    position: absolute;
+}
+.Topic{
+    font-weight: Bold;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 25px;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+.Introduction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Img{
+    height: 290px;
+    width: 300px;
+    border-radius: 8px;
+    background-image: url('../../Assets/aditya.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.Introtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: flex-start;
+    margin-left: 40px;
+}
+.Hello{
+    font-weight: Bold;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.Name{
+    font-weight: Bold;
+    font-size: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.Am{
+    font-weight: Bold;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.Institute{
+    font-weight: Bold;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.Content{
+    width: 90%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 40px 0;
+}

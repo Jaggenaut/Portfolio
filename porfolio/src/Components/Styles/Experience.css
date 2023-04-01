@@ -1,0 +1,17 @@
+.Experience{
+    height: 690px;
+    width: 1050px;
+    display: block;
+    position: relative;
+    left: 100%;
+    background-color: #CFF5E7;
+    /* animation: Slidein 1s 5s linear 1 ; */
+}
+@keyframes Slidein {
+    from {
+        left: 1070px;
+    }
+    to{
+        left: 0px;
+    }
+}

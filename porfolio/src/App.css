@@ -1,1 +1,35 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
+.App{
+    min-height: 100vh;
+    background-color: #CFF5E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 730px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.IntroAndExperience{
+    height: 690px;
+    width: 1090px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: row;
+    margin: 0 40px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-start;
+}

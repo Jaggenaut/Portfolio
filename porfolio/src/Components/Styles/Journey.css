@@ -2,6 +2,115 @@
     background-color: #A0E4CB;
     width: 1090px;
     height: 280px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     margin: 0px 20px;
+    overflow: hidden;
+}
+.Journey:hover .Topic{
+    font-weight: bold;
+}
+.JourneyDescription{
+    height: 142px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px 120px;
+}
+.Journeytext{
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.wave{
+    position: relative;
+    bottom: -40px;
+}
+.waves{
+    position:absolute;
+    height: 40px;
+    background: url('../../Assets/wave.png');
+    background-size: 1000px 40px;
+    width: 1090px;
+}
+#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animatewave 4s linear infinite;
+}
+#wave2{
+    z-index: 100;
+    opacity: 0.61;
+    bottom: 0;
+    animation: animatewave_2 2s linear infinite;
+}
+#wave3{
+    z-index: 10;
+    opacity: 0.31;
+    bottom: 0;
+    animation: animatewave 6s linear infinite;
+}
+#wave4{
+    z-index: 1;
+    opacity: 0.1;
+    bottom: 0;
+    animation: animatewave_2 4s linear infinite;
+}
+
+@keyframes animatewave {
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animatewave_2 {
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+.Ship{
+    background: url('../../Assets/Ship.png');
+    height: 230px;
+    width: 250px;
+    position: absolute;
+    bottom: 15px;
+    z-index: 100;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    left: 20px;
+    animation: shipMovement 4s linear infinite;
+    animation-delay: 0.2s;
+}
+.Journey:hover .Ship{
+    transform: scale(1.25) translateX(100px);
+}
+@keyframes shipMovement{
+    0%{
+        bottom: 25px;
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(10deg);
+    }
+    40%{
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    75%{
+        bottom: 0px;
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        bottom: 25px;
+        transform: rotate(0deg);
+    }
 }

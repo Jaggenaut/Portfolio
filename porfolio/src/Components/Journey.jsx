@@ -5,7 +5,19 @@ export class Journey extends Component {
   render() {
     return (
       <div className='Journey'>
-        <p>Journey</p>
+        <div className='Topic'>Journey</div>
+        <div className='JourneyDescription'>
+          <div className='Journeytext'>Laqwertyuiopasdfghjklzxcvbnm,q
+wertyuioasdfghjklzxcvbnm,qwertyui
+qwertyuiopasdfghjklzxcvbnm</div>
+        </div>
+        <div className='wave'>
+          <div className='waves' id='wave1'></div>
+          <div className='waves' id='wave2'></div>
+          <div className='Ship'></div>
+          <div className='waves' id='wave3'></div>
+          <div className='waves' id='wave4'></div>
+        </div>
       </div>
     )
   }

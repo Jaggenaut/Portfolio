@@ -3,4 +3,21 @@
     height: 690px;
     width: 340px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Skills:hover .Topic{
+        font-weight: Bold;
+}
+.Skill{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+} 
+.SkillDescription{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 30px;
+    font-weight: normal;
 }

@@ -4,14 +4,8 @@
     background-color: #59C1BD;
     border-radius: 10px;
 }
-.TopicBottom{
-    /* font-weight: Bold; */
-    font-size: 25px;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 10px 15px;
+.WorkingOn:hover .Topic{
+    font-weight: bold;
 }
 .Description{
     width: 65%;

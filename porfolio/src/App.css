@@ -16,7 +16,7 @@
     height: 730px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .IntroAndExperience{
     height: 690px;
@@ -24,7 +24,7 @@
     overflow:hidden;
     display: flex;
     flex-direction: row;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 .bottom{
     display: flex;

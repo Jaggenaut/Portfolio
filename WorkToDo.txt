@@ -1,1 +1,4 @@
 Start
+Make data base 
+Make a backend API service for get APIs 
+Work For the first display cards 

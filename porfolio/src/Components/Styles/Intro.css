@@ -3,17 +3,19 @@
     width: 1050px;
     display: flex;
     flex-direction: column;
-    margin: 0 40px;
+    margin: 0 20px;
     position: absolute;
 }
 .Topic{
-    font-weight: Bold;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin: 25px;
+}
+.Intro:hover .Topic{
+    font-weight: bold;
 }
 .Container{
     display: flex;

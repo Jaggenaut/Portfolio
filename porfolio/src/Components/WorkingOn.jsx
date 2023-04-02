@@ -5,7 +5,7 @@ export class WorkingOn extends Component {
   render() {
     return (
       <div className='WorkingOn'>
-        <div className='TopicBottom'>Working On</div>
+        <div className='Topic'>Working On</div>
         <div className='WorkName'>
           <div className='Work'>Git
           </div>

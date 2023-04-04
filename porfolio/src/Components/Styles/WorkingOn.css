@@ -1,8 +1,9 @@
 .WorkingOn{
     width: 340px;
     height: 280px;
-    background-color: #59C1BD;
+    background-color: #256D85;
     border-radius: 10px;
+    color: #DFF6FF;
 }
 .WorkingOn:hover .Topic{
     font-weight: bold;
